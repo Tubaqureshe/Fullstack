@@ -16,7 +16,7 @@ export default function Brands() {
 
   const fetchBrands = () => {
     axios
-      .get('/get-all-brands')
+      .get('/api/get-all-brands')
       .then((response) => setBrands(response.data.brands))
       .catch((error) => console.log(error));
   };
