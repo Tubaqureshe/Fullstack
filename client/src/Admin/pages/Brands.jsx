@@ -36,7 +36,7 @@ export default function Brands() {
 
   const updateBrand = (_id, newData) => {
     axios
-      .put('/update-brand', { _id, ...newData })
+      .put('/api/update-brand', { _id, ...newData })
       .then(() => {
         fetchBrands();
         setSuccessMessage('Brand updated successfully');
