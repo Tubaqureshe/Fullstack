@@ -27,12 +27,14 @@ Eager to team up on: Full Stack Ventures
 
 API Reference
 1) Users API
+2) 
 A) SignUp User
 
   POST /api/signup
   
-Parameter 	Type  	Description
-username 	string 	Required.  User's username
+Parameter 	Type  	Description 
+
+username 	string 	Required.User's username
 
 email	string	Required. User's email
 
@@ -42,34 +44,61 @@ B) Login User
 
   POST /api/login
   
-Parameter	Type	Description
-email	string	Required. User's email
+Parameter  Type 	Description
+
+email	 string 	Required. User's email
+
 password	string	Required. User's Password
+
 C) Get all User
+
 |Method | :-------- :------------------------- | | GET| Get all Users|
 
   GET /api/getallusers
+  
 2) Products API
+   
 A) Get all products
+
   GET /api/get-all-products
+  
 |Method |Description | | :-------- :------------------------- | | GET| Get all products|
 
+
 B) Create Product
+
   POST /api/create-product
+  
 Parameter	Type	Description
+
 name	string	Required. Product name
+
 category	string	Required. Product Category
+
 brand	string	Required. Product Brand
+
 price	string	Required. Product Price
+
 B) Update Product
+
   PUT /api/update-product
+  
 Parameter	Type	Description
+
 id	string	Required. Product ID
+
 name	string	Required. Product new Name
+
 category	string	Required. Product new Category Name
+
 brand	string	Required. Product new Brand Name
+
 price	string	Required. Product new Price
+
 C) Delete Product
+
   DELETE /api/delete-product
+  
 Parameter	Type	Description
+
 id	string	Required. Product ID
