@@ -28,13 +28,20 @@ Eager to team up on: Full Stack Ventures
 API Reference
 1) Users API
 A) SignUp User
+
   POST /api/signup
-Parameter	Type	Description
-username	string	Required. User's username
+  
+Parameter 	Type  	Description
+username 	string 	Required.  User's username
+
 email	string	Required. User's email
+
 password	string	Required. User's Password
+
 B) Login User
+
   POST /api/login
+  
 Parameter	Type	Description
 email	string	Required. User's email
 password	string	Required. User's Password
